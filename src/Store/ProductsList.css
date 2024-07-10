@@ -1,0 +1,50 @@
+/* ProductCard.css */
+body{
+    margin-top: 50px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .card-price{
+    color: blue;
+    size: 15px;
+    font-weight: 500;
+  }
+  .card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  /* ProductList.css */
+
+.card-img-top {
+  width: 120px;  /* Ensure image is treated as a block element */
+  margin: 0 auto; /* Center image horizontally */
+}
+
+  .card-img-top {
+    max-height: 160px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .card-text.small {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  
